@@ -1,14 +1,3 @@
-.app{
-  color: black;
-  background-color: black;
-  height: 100%;
-  width: 100%
-}
-
-.body{
-  background-color: black;
-}
-
 ::-webkit-scrollbar {
   display: none;
 }
