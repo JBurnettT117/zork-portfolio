@@ -2,7 +2,7 @@ import { ReactTerminal } from "react-terminal";
 import './terminal.css';
 import { roomStructure } from '../roomMap/roomMap';
 import Resume from '../resume';
-import React, { useState } from 'react';
+import React from 'react';
 
 const TerminalComponent = () => {
     let currentRoom = "office";

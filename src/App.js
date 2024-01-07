@@ -1,6 +1,5 @@
 import './App.css';
 import React, { useEffect } from 'react';
-import {ReactTerminal} from 'react-terminal';
 import MonitorComponent from './components/monitor/monitor';
 
 function App() {
