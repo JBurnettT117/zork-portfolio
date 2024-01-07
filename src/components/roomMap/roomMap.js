@@ -2,7 +2,7 @@
 export const roomStructure = {
     office: {
         accesible: ["livingRoom"],
-        description: `you're in a small office. Before you stands a large Mahogany desk adjorned with a distastefully bright 
+        description: `You're in a small office. Before you stands a large Mahogany desk adjorned with a distastefully bright 
             RGB Keyboard going full rainbow vomit mode and an equally sickening computer to match. Two large monitors sit on 
             the desk one displaying a youtube video and another with a resume on screen. the walls are littered with the "hang 
             in there" posters youd find in a highschool. Directly behind the desk are three plaques on the wall.`,
@@ -13,7 +13,7 @@ export const roomStructure = {
     livingRoom: {
         accesible: ["office", "kitchen", "bedroom", "balcony", "bathroom"],
         description: `You step into what can only be described as the living room out of a 17 year olds dream. A large Tv
-            commandeers your attention, flashing to the fast paced ryhtym of an animated show. Luckily for you and the 
+            commandeers your attention, flashing to the fast paced rhythm of an animated show. Luckily for you and the 
             neighbors the obscenley large sound system is turned off for now. On the opposite side of the room a sofa sits 
             beyond a low coffee table scattered with trading cards that seem to fit a certain early 2000s saturday morning 
             cartoon.`,
