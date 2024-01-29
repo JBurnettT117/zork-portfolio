@@ -23,6 +23,15 @@ const Resume = () => {
                 <h2>PROJECTS</h2>
 
                 <article>
+                    <h3>Asylum-rg-fe, Front End Development</h3>
+                    <p><a href="https://github.com/JBurnettT117/asylum-rg-fe-starter">GitHub</a></p>
+                    <ul>
+                        <li>Implemented authorization using  Auth0 to verify users and create a protected profile page with user information</li>
+                        <li>Setup a conditional fetch request with error handling for retrieving data based on different selectors and populating graphs, charts, and maps with appropriate data</li>
+                    </ul>
+                </article>
+
+                <article>
                     <h3>Async Redux, Full Stack Developer</h3>
                     <p><a href="https://github.com/JBurnettT117/web-module-project-async-redux">GitHub</a></p>
                     <ul>

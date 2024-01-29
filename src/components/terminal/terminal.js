@@ -45,7 +45,7 @@ const TerminalComponent = () => {
             )
         }),
         rooms: (() => {
-            message = `Currently accesible room(s): ${roomStructure[currentRoom].accesible.join(", ")}`
+            message = `Currently accessible room(s): ${roomStructure[currentRoom].accessible.join(", ")}`
             return message;
         }),
         lookAround: (() => {
@@ -54,11 +54,11 @@ const TerminalComponent = () => {
             
         }),
         enter: ((room) => {
-            if(roomStructure[currentRoom].accesible.includes(room)){
+            if(roomStructure[currentRoom].accessible.includes(room)){
                 currentRoom = room
                 message = roomStructure[currentRoom].description
             } else if(Object.keys(roomStructure).includes(room)) {
-                message = "That room isnt accesible from this location. Type 'rooms' to see connected rooms."
+                message = "That room isnt accessible from this location. Type 'rooms' to see connected rooms."
             } else {
                 message = "That room doesn't exist. Type 'rooms' to see connected rooms."
             }
@@ -77,7 +77,14 @@ const TerminalComponent = () => {
         <div className="terminal-component crt">    
             <ReactTerminal className="crt"
                 showControlButtons={false}
-                theme="matrix"
+                themes={{
+                    "my-custom-theme": {
+                        themeBGColor: "#000000",
+                        themePromptColor: "#008000",
+                        themeColor: "#00A300"
+                    }
+                }}
+                theme="my-custom-theme"
                 welcomeMessage={welcomeMessage}
                 commands={commands}
                 prompt={`>> what would you like to do?`}
