@@ -68,7 +68,14 @@ const TerminalComponent = () => {
         objects: (() => {
             //something in here that says what is interactable with.
         }),
-        interact: ((object) => {
+        interact: ((input) => {
+            let object = input.toLowerCase();
+            if(roomStructure[currentRoom].objects.includes(object)){
+                message = roomStructure[currentRoom].objects[object];
+            }
+            if(object === 'monitor'){
+                
+            }
             //code here that lets you chose an object and mess with it.
         })
     }

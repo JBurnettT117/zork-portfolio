@@ -6,7 +6,7 @@ export const roomStructure = {
         RGB Keyboard going full rainbow vomit mode and an equally sickening computer to match. Two large monitors sit on 
         the desk one displaying a YouTube video and another with a resume on screen. The walls are littered with the "hang 
         in there" posters you'd find in a high school. Directly behind the desk are three plaques on the wall.`,
-        objects: "interactive objects coming soon!"
+        objects: {monitor: "description of monitor for interaction i.e. the monitor is displaying two youtube videos each titled 'makeup names', would you like to look at the resume?"}
             //add a look at monitor that shows resume and youtube name, look at plaques that shows links to repos of the sites
             
     },
