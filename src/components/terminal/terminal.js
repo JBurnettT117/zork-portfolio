@@ -3,6 +3,7 @@ import './terminal.css';
 import { roomStructure } from '../roomMap/roomMap';
 import Resume from '../resume';
 import React from 'react';
+import Plaques from '../plaques.js'
 
 const TerminalComponent = () => {
     let currentRoom = "office";
@@ -18,8 +19,6 @@ const TerminalComponent = () => {
     const commands = {
         //fleshout rooms
         //flesh out design
-        //fleshout readme.
-        //write unit test
         resume: (() => {
             return (
                 <>
@@ -66,16 +65,23 @@ const TerminalComponent = () => {
                 
         }),
         objects: (() => {
+            message = `List of interactable object(s): ${Object.keys(roomStructure[currentRoom].objects)}`
+            return message
             //something in here that says what is interactable with.
         }),
         interact: ((input) => {
             let object = input.toLowerCase();
-            if(roomStructure[currentRoom].objects.includes(object)){
+            if(object === 'plaques'){
+                return (
+                    <>
+                    <Plaques/>
+                    </>
+                )
+            }
+            if(Object.keys(roomStructure[currentRoom].objects).includes(object)){
                 message = roomStructure[currentRoom].objects[object];
             }
-            if(object === 'monitor'){
-                
-            }
+            return message;
             //code here that lets you chose an object and mess with it.
         })
     }

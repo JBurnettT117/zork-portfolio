@@ -6,7 +6,12 @@ export const roomStructure = {
         RGB Keyboard going full rainbow vomit mode and an equally sickening computer to match. Two large monitors sit on 
         the desk one displaying a YouTube video and another with a resume on screen. The walls are littered with the "hang 
         in there" posters you'd find in a high school. Directly behind the desk are three plaques on the wall.`,
-        objects: {monitor: "description of monitor for interaction i.e. the monitor is displaying two youtube videos each titled 'makeup names', would you like to look at the resume?"}
+        objects: {
+            monitor: `The monitor is displaying a video titled 'Generic Day - lofi ambient music | chill beats to relax/ study/
+            vibe/ chill/ hangout/ do homework/ sleep/ shower/ breathe/ eat/ dance to. On the other monitor is a resume. If you 
+            would like to view the resume please type 'resume' and press enter.`,
+            plaques: 'plaques is coming from a component. this is a placeholder for the object list function.'
+        }
             //add a look at monitor that shows resume and youtube name, look at plaques that shows links to repos of the sites
             
     },
@@ -34,8 +39,8 @@ export const roomStructure = {
         or box spring, worse still, its unmade. Atop this growing atrocity lies a shockingly clean dakimakura. Unlike the bed,
         a TV sits mounted to a stand on the opposite wall. Leaving you wondering if there's a room in this apartment without a
         screen.`,
-        //dakimakura
-        objects: "interactive objects coming soon!"
+        objects: {dakimakura: `You grab the dakimakura and hold it closely. A feeling of contentment washes over you and you 
+            feel compelled to never let it leave your side. On this day you were made whole again.`}
     },
     balcony: {
         accessible: ["livingRoom"],
