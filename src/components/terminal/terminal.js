@@ -67,7 +67,6 @@ const TerminalComponent = () => {
         objects: (() => {
             message = `List of interactable object(s): ${Object.keys(roomStructure[currentRoom].objects)}`
             return message
-            //something in here that says what is interactable with.
         }),
         interact: ((input) => {
             let object = input.toLowerCase();
@@ -82,7 +81,6 @@ const TerminalComponent = () => {
                 message = roomStructure[currentRoom].objects[object];
             }
             return message;
-            //code here that lets you chose an object and mess with it.
         })
     }
 

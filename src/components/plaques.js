@@ -5,21 +5,27 @@ const Plaques = () => {
         <body>
             <div>
                 <h3>Node-core</h3>
-                <p>description of nodecore from the readme</p>
+                <p>
+                    This is a simple Node.js application built with TypeScript that demonstrates the use of the 
+                    Winston logger for logging messages.
+                </p>
                 <a href='https://github.com/JBurnettT117/Node-Core'>Github</a>
             </div>
             <div>
-                <h3>Node-core</h3>
-                <p>description of nodecore from the readme</p>
-                <a href='https://github.com/JBurnettT117/Node-Core'>Github</a>
+                <h3>Asylum-rg-fe</h3>
+                <p>a search tool to give a user-friendly view into a large dataset of asylum case decisions.</p>
+                <a href='https://github.com/JBurnettT117/asylum-rg-fe-starter'>Github</a>
             </div>
             <div>
-                <h3>Node-core</h3>
-                <p>description of nodecore from the readme</p>
-                <a href='https://github.com/JBurnettT117/Node-Core'>Github</a>
+                <h3>web-module-project-async-redux</h3>
+                <p>
+                    Using asynchronus action creators in Redux, this project fetches GIFs and associated 
+                    information from an api and displays them.
+                </p>
+                <a href='https://github.com/JBurnettT117/web-module-project-async-redux'>Github</a>
             </div>
         </body>
-    )
+    )   
 }
 
 export default Plaques;

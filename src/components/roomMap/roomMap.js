@@ -12,7 +12,6 @@ export const roomStructure = {
             would like to view the resume please type 'resume' and press enter.`,
             plaques: 'plaques is coming from a component. this is a placeholder for the object list function.'
         }
-            //add a look at monitor that shows resume and youtube name, look at plaques that shows links to repos of the sites
             
     },
     livingRoom: {

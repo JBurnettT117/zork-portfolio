@@ -26,8 +26,10 @@ const Resume = () => {
                     <h3>Asylum-rg-fe, Front End Development</h3>
                     <p><a href="https://github.com/JBurnettT117/asylum-rg-fe-starter">GitHub</a></p>
                     <ul>
-                        <li>Implemented authorization using  Auth0 to verify users and create a protected profile page with user information</li>
-                        <li>Setup a conditional fetch request with error handling for retrieving data based on different selectors and populating graphs, charts, and maps with appropriate data</li>
+                        <li>Implemented authorization using  Auth0 to verify users and create a protected profile page with user 
+                            information</li>
+                        <li>Setup a conditional fetch request with error handling for retrieving data based on different selectors 
+                            and populating graphs, charts, and maps with appropriate data</li>
                     </ul>
                 </article>
 
@@ -91,7 +93,7 @@ const Resume = () => {
                 <h2>EDUCATION</h2>
                 <p><strong>BloomTech, Full Stack Web Development Program Graduate</strong></p>
                 <p>2022 - 2023</p>
-                <p><strong>Lubbock Christian University, Associates of Arts in Criminal Justice</strong></p>
+                <p><strong>Lubbock Christian University, Bachelor of Arts in Criminal Justice</strong></p>
                 <p>2015 - 2019</p>
             </section>
 
