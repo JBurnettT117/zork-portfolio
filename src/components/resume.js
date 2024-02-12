@@ -14,9 +14,9 @@ const Resume = () => {
             <section id="technical-skills">
                 <h2>TECHNICAL SKILLS</h2>
                 <p><strong>Front End:</strong> React.js, Redux, Hooks, Context API, Figma, Jest, Cypress, Yup, Axios, JavaScript,
-                    Typescript, HTML, CSS</p>
-                <p><strong>Back End:</strong> Node.js, Python, GitHub, VS Code, Vercel</p>
-                <p><strong>Additional:</strong> Agile Project Management, Algorithms, Architecture, Debugging, Deployment</p>
+                    Typescript, HTML and CSS</p>
+                <p><strong>Back End:</strong> Node.js, Python, GitHub, VS Code and Vercel</p>
+                <p><strong>Additional:</strong> Agile Project Management, Algorithms, Architecture, Debugging and Deployment</p>
             </section>
 
             <section id="projects">
