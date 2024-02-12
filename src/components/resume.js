@@ -7,8 +7,8 @@ const Resume = () => {
             <header>
                 <h1>Joshua Burnett</h1>
                 <p>Full Stack Web Developer | Software Engineer</p>
-                <p>Fort Worth, TX | 817.575.9610 | joshuaburnett429@gmail.com | <a href="https://github.com/JBurnettT117">GitHub</a> | <a
-                        href="https://www.linkedin.com/in/joshua-burnett-883054157/">LinkedIn</a></p>
+                <p>Fort Worth, TX | 817.575.9610 | joshuaburnett429@gmail.com | <a href="https://github.com/JBurnettT117" target="_blank" rel="noreferrer">GitHub</a> | <a
+                        href="https://www.linkedin.com/in/joshua-burnett-883054157/" target="_blank" rel="noreferrer">LinkedIn</a></p>
             </header>
 
             <section id="technical-skills">
@@ -24,7 +24,7 @@ const Resume = () => {
 
                 <article>
                     <h3>Asylum-rg-fe, Front End Development</h3>
-                    <p><a href="https://github.com/JBurnettT117/asylum-rg-fe-starter">GitHub</a></p>
+                    <p><a href="https://github.com/JBurnettT117/asylum-rg-fe-starter" target="_blank" rel="noreferrer">GitHub</a></p>
                     <ul>
                         <li>Implemented authorization using  Auth0 to verify users and create a protected profile page with user 
                             information</li>
@@ -35,7 +35,7 @@ const Resume = () => {
 
                 <article>
                     <h3>Async Redux, Full Stack Developer</h3>
-                    <p><a href="https://github.com/JBurnettT117/web-module-project-async-redux">GitHub</a></p>
+                    <p><a href="https://github.com/JBurnettT117/web-module-project-async-redux" target="_blank" rel="noreferrer">GitHub</a></p>
                     <ul>
                         <li>Built async redux application to fetch data from a Giphy API based on a search query to display
                             optional GIFs</li>
@@ -49,7 +49,7 @@ const Resume = () => {
 
                 <article>
                     <h3>Pizza Store, Full Stack Developer</h3>
-                    <p><a href="https://github.com/JBurnettT117/web-sprint-challenge-single-page-applications/tree/675b65c380dc30e4537d205b4eec0bc8453873a3">GitHub</a></p>
+                    <p><a href="https://github.com/JBurnettT117/web-sprint-challenge-single-page-applications/tree/675b65c380dc30e4537d205b4eec0bc8453873a3" target="_blank" rel="noreferrer">GitHub</a></p>
                     <ul>
                         <li>Built a React platform to process customizable online food order fulfillment and delivery</li>
                         <li>Developed 5+ dynamic forms using JavaScript to process and display a list of available food item
