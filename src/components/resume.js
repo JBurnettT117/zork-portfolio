@@ -26,6 +26,8 @@ const Resume = () => {
                     <h3>Asylum-rg-fe, Front End Development</h3>
                     <p><a href="https://github.com/JBurnettT117/asylum-rg-fe-starter" target="_blank" rel="noreferrer">GitHub</a></p>
                     <ul>
+                        <li>A search tool to help users sort through an extensive database of asylum decisions including real time visualizations,
+                            graphs, and heatmaps</li>
                         <li>Implemented authorization using  Auth0 to verify users and create a protected profile page with user 
                             information</li>
                         <li>Setup a conditional fetch request with error handling for retrieving data based on different selectors 
